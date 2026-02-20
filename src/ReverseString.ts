@@ -1,4 +1,14 @@
+// copilot: disable
+/**
+ * Utility class for reversing strings.
+ * @class ReverseString
+ */
 class ReverseString {
+  /**
+   * Reverses a string.
+   * @param input - The string to reverse.
+   * @returns The reversed string.
+   */
   static getReverseString(input: string): string {
     let reversed = '';
 

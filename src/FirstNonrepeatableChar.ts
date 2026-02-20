@@ -1,4 +1,14 @@
+// copilot: disable
+/**
+ * Finds the first non-repeatable character in a string.
+ * @class FirstNonRepeatableChar
+ */
 export class FirstNonRepeatableChar {
+  /**
+   * Finds the first non-repeatable character using an object for counting.
+   * @param input - The string to search.
+   * @returns The first non-repeatable character, or '_' if none found.
+   */
   static forSolution(input: string): string {
     // Initialize character count
     const charCount: Record<string, number> = {};
@@ -16,6 +26,11 @@ export class FirstNonRepeatableChar {
     return '_';
   }
 
+  /**
+   * Finds the first non-repeatable character using a Map for counting.
+   * @param input - The string to search.
+   * @returns The first non-repeatable character, or '_' if none found.
+   */
   static mapSolution(input: string): string | null {
     const charCount = new Map<string, number>();
 
