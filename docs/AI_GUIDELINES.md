@@ -67,8 +67,8 @@ The focus is **code quality first, optimization second**.
 
 ## 📁 Project Structure
 
-src/ - classes contains solutions to problem solving
-run.ts - runner
+- src/ - classes contains solutions to problem solving
+- run.ts - runner
 
 Rules:
 
@@ -113,3 +113,36 @@ Preferred:
 - Use early returns
 - Keep functions under ~40 lines if possible
 - Extract helpers if logic becomes complex
+
+## ⚙️ Algorithm Strategy Order
+
+### When solving problems:
+
+- Brute force (make it work)
+- Improve time complexity
+- Improve space complexity
+- Refactor for clarity
+
+## 🚫 Avoid
+
+- Overengineering
+- Premature optimization
+- Using libraries for simple problems
+- Overly clever one-liners that reduce readability
+
+## 🧠 Preferred Patterns
+
+- Use Set for uniqueness checks
+- Use Map for frequency counting
+- Use sliding window when dealing with substrings
+- Use two-pointer technique for string/array problems
+- Use pure functions whenever possible
+
+## 🏁 Goal
+
+### The goal of this project is not just to solve problems, but to build:
+
+- clean coding habits
+- architectural thinking
+- algorithmic confidence
+- interview readiness
