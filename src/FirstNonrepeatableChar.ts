@@ -31,7 +31,7 @@ export class FirstNonRepeatableChar {
    * @param input - The string to search.
    * @returns The first non-repeatable character, or '_' if none found.
    */
-  static mapSolution(input: string): string | null {
+  static mapSolution(input: string): string {
     const charCount = new Map<string, number>();
 
     for (const char of input) {
