@@ -2,13 +2,16 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "node",
+      "type": "node-terminal",
       "request": "launch",
-      "name": "Debug code",
-      "program": "${workspaceFolder}/run.ts",
-      "runtimeArgs": ["--loader", "ts-node/esm"],
+      "name": "TS-DEBUG",
       "skipFiles": ["<node_internals>/**"],
-      "outFiles": ["${workspaceFolder}/**/*.ts"]
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "env": {
+        "CI": "true"
+      }
     }
   ]
 }

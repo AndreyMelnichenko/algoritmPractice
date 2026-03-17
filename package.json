@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node run.ts",
-    "start": "ts-node run.ts",
-    "run": "npm run lint && ts-node run.ts",
+    "dev": "node --loader ts-node/esm run.ts",
+    "start": "node --loader ts-node/esm run.ts",
+    "run": "npm run lint && node --loader ts-node/esm run.ts",
     "build": "tsc",
     "lint": "eslint '**/*.ts'",
     "lint:fix": "eslint --fix '**/*.ts'"
