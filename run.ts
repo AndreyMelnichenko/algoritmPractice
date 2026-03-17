@@ -3,6 +3,7 @@ import { CheckPalindrome } from './src/CheckPalindrome.js';
 import { CountVowels } from './src/CountVowels.js';
 import { FirstNonRepeatableChar } from './src/FirstNonrepeatableChar.js';
 import { FuzzBizz } from './src/FuzzBizz.js';
+import MinMaxArray from './src/MinMaxArray.js';
 import ReverseString from './src/ReverseString.js';
 
 console.log(FirstNonRepeatableChar.forSolution('abbcacbaabu'));
@@ -22,3 +23,5 @@ console.log(
     2,
   ),
 );
+
+console.log(MinMaxArray.getMinValue([3, 1, 4, 1, 5, 9]));
