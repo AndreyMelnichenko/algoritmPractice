@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 import { CheckPalindrome } from './src/CheckPalindrome.js';
 import { CountVowels } from './src/CountVowels.js';
+import { DeduplicateArray } from './src/DeduplicateArray.js';
 import { FirstNonRepeatableChar } from './src/FirstNonrepeatableChar.js';
 import { FuzzBizz } from './src/FuzzBizz.js';
 import MinMaxArray from './src/MinMaxArray.js';
@@ -25,3 +26,5 @@ console.log(
 );
 
 console.log(MinMaxArray.getMinValue([3, 1, 4, 1, 5, 9]));
+console.log(DeduplicateArray.deduplicateArr([1, 2, 2, 3, 4, 4, 5]));
+console.log(DeduplicateArray.deduplicateArr([{ a: 1 }, { b: 2 }, { c: 5 }, { c: 5 }, { c: 6 }]));
