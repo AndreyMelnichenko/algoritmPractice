@@ -6,6 +6,7 @@ import { FirstNonRepeatableChar } from './src/FirstNonrepeatableChar.js';
 import { FuzzBizz } from './src/FuzzBizz.js';
 import MinMaxArray from './src/MinMaxArray.js';
 import ReverseString from './src/ReverseString.js';
+import { WordCapitalizer } from './src/WordCapitalizer.js';
 
 console.log(FirstNonRepeatableChar.forSolution('abbcacbaabu'));
 console.log(FirstNonRepeatableChar.mapSolution('hbythtyb67u7u6j78kjewf4f546g5h'));
@@ -28,3 +29,4 @@ console.log(
 console.log(MinMaxArray.getMinValue([3, 1, 4, 1, 5, 9]));
 console.log(DeduplicateArray.deduplicateArr([1, 2, 2, 3, 4, 4, 5]));
 console.log(DeduplicateArray.deduplicateArr([{ a: 1 }, { b: 2 }, { c: 5 }, { c: 5 }, { c: 6 }]));
+console.log(WordCapitalizer.capitalizeWords('hello[][  ]this beautiful  world'));
