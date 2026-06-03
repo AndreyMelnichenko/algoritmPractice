@@ -34,10 +34,10 @@ This project is set up for algorithm problem-solving in TypeScript. To get the m
 
 ---
 
-
 ## Further Guidelines
 
 For detailed AI usage, code style, and contribution rules, see [docs/AI_GUIDELINES.md](docs/AI_GUIDELINES.md). This document covers:
+
 - Project purpose and coding principles
 - Linter and TypeScript rules
 - Problem implementation and testing rules
